@@ -57,7 +57,7 @@ function App() {
           >
             <CardMedia
               component="img"
-              image="/my_image.jpg"
+              image={`${import.meta.env.BASE_URL}my_image.jpg`}
               alt="Profile photo"
               sx={{
                 width: "100%",
